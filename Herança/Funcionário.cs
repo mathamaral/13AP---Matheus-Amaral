@@ -10,7 +10,7 @@ namespace Herança
         public string Departamento;
         public void Trabalhar()
         {
-            Console.Writeline(Nome + "esta trabalhando no departamento " + departamento);
+            Console.Writeline(Nome + "com o seguinte CPF" + CPF + "esta trabalhando no departamento " + departamento);
         }
     }
 }

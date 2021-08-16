@@ -11,11 +11,13 @@ namespace Herança
         {
             Aluno aluno = new Aluno();
             aluno.Nome = "Matheus";
+            aluno.CPF = "987.654.321-87"
             aluno.Matricula = "123";
             aluno.Estudar();
 
             Funcionário funcionario = new Funcionário();
             funcionario.Nome = "Cinara";
+            funcionario. CPF = "123.456.789-10"
             funcionario.Departamento = "Desenvolvimento";
             funcionario.Trabalhar();
             funcionario.Dormir();

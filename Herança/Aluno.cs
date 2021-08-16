@@ -10,9 +10,10 @@ namespace Herança
         static void Marca(string[] args)
         {
             public string matricula;
+            public string email;
             public void Estudar()
             {
-                Console.Writeline(Nome + "esta estudando");
+                Console.Writeline(Nome + "com o seguinte CPF" + CPF + "esta estudando");
             }
         }
     }

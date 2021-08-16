@@ -8,6 +8,7 @@ namespace Herança
     public class Pessoa
     {
         public string Nome;
+        public string CPF;
         public void Dormir()
         {
             Console.Writeline("todos dormem");
