@@ -7,9 +7,9 @@ namespace ProjetoSoftware
 {
     public class Calculadora
     {
-        public int Soma(int n1, int n2)
+        public int Mult(int n1, int n2)
         {
-            return n1 + n2;
+            return n1 * n2;
         }
     }
 }

@@ -14,15 +14,15 @@ namespace ProjetoSoftware
             int c = 10;
             int d = 10;
             Calculadora calc = new Calculadora();
-            int r = calc.Soma(a, b);
-            int r2 = calc.Soma(c, d);
+            int r = calc.Mult(a, b);
+            int r2 = calc.Mult(c, d);
             Console.Writeline("A soma de a com b é igual a: " a, b, r);
             Console.Writeline("A soma de a com b é igual a: " c, d, r2);
             Console.ReadLine();
         }
-        private static int Soma(int n1, int n2)
+        private static int Mult(int n1, int n2)
         {
-            return n1 + n2;
+            return n1 * n2;
         }
     }
 }
